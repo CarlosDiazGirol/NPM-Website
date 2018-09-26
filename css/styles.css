@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -77,9 +78,16 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
-	background: rgb(32, 101, 136);
+	background: rgb(32, 101, 136); 
+}
+.clearTittle {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
 .logoNPM {
+	position: relative;
 }
 .logoNPM img {
 	width: 80px;
@@ -116,6 +124,27 @@ color: #a7a7a7;
 	min-height: 500px;
   padding: 10px;
 }
+
+.row input{
+	width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+	color: #fff;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.row a:hover {
+	text-decoration: underline;
+}
+
 .rowFirst {
 	color: #fff;
 	background-image: url(../img/hero-cityscape.svg);
@@ -124,18 +153,71 @@ color: #a7a7a7;
   background-repeat: no-repeat;
 }
 .rowFirst input{
-	color: #fff;
 	background-color: #f09233;
-	cursor: pointer;
 }
 .rowFirst input:hover{
 	background-color: #e29445;
 }
 .rowSecond {
+	color: #fff;
+	background-color: #273547
+}
+.rowSecond p {
+	text-align: center;
+}
+.rowSecond li {
+	margin: 10px;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	list-style-type: disc;
+}
+.rowSecond li:last-child {
+	margin: 10px 10px 30px 10px;
+}
+.rowSecond input{
+	width: 95%;
+	background: rgb(203, 56, 55);
+}
+
+.rowSecond input:hover{
+	background: rgb(199, 71, 71);
 }
 .rowThird {
+	color: #fff;
+	background-image: url(../img/npm-is-BOXES.svg);
+	background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rowThird input{
+	background: #273547;
+}
+
+.rowThird input:hover{
+	background: #2e4a6d;
 }
 .boxContent {
+	display: flex;
 	width: 1000px;
-	margin: 0 auto;
+	margin: 50px auto 0 auto;
+}
+.boxContentPlace {
+	width: 50%;
+}
+.boxContentPlace img {
+	width: 80%;
+	margin: 50px 0;
+}
+.boxContent h2 {
+	font-size: 2.5em;
+	margin: 10px 0 40px 0;
+	max-width: 450px;
+  line-height: 1.2em;
+}
+.boxContent p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin: 30px 0;
+	max-width: 440px;
 }
