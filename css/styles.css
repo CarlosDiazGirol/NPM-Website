@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* end reset */
+
+#content {
+  
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  background-color: #c4181a;
+}
+.navigation a {
+  color: #fff;
+}
+.top-links {
+  display: flex;
+}
+.top-links li {
+  margin: 0 10px;
+}
+/* header */
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background: rgb(32, 101, 136);
+}
+.logoNPM {
+}
+.logoNPM img {
+	width: 80px;
+}
+.search {
+	margin: 0 10px;
+	width: 80%;
+}
+
+.search input {
+	width: 100%;
+	padding: 5px;
+	color: #fff;
+	background: rgb(31, 82, 111);
+	border: none;
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.login a {
+  color: #fff;
+}
+.login a:hover {
+color: #a7a7a7;
+}
+.login img {
+	width: 40px;
+	margin-left: 10px;
+}
+.row {
+	min-height: 500px;
+  padding: 10px;
+}
+.rowFirst {
+	color: #fff;
+	background-image: url(../img/hero-cityscape.svg);
+	background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rowFirst input{
+	color: #fff;
+	background-color: #f09233;
+	cursor: pointer;
+}
+.rowFirst input:hover{
+	background-color: #e29445;
+}
+.rowSecond {
+}
+.rowThird {
+}
+.boxContent {
+	width: 1000px;
+	margin: 0 auto;
+}
